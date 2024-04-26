@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HOME="/mnt/krab1/NJCB_data/Coregonus_PSMC_v2/bam_stats"
+HOME=""
 cd ${HOME}
 
 FILELIST=`cat temp`
