@@ -2,7 +2,6 @@
 #AISO Script (ABOUT, INPUT, STEPS, OUTPUT) for running psmc analysis. 
 #TJ Krabbenhoft, May 2020, University at Buffalo
 
-
 #ABOUT:
 #This script takes input bam files from a genome assembly and runs PSMC analysis. The analysis requires a diploid consensus (i.e., SNPs called throughout the genome, with files created in Step 2). 
 
@@ -33,5 +32,4 @@ echo "It's finished. Go make some plots"
 #Relevant output files include: 
 #Image file with PSMC graph
 #Make PSMC plot with multiple samples and correct for missing data:
-#/Users/krablab/Downloads/psmc-master/utils/psmc_plot.pl -M "${f}=0.3,CA03=0.3,CH01=0.3,CH04=0.3,CK01=0.3,CK02=0.3,CZ01=0.3,CZ02=0.3,CN01=0.3,CN02=0.3" prefix ${f}.psmc CA03.psmc CH01.psmc CH04.psmc CK01.psmc CK02.psmc CZ01.psmc CZ02.psmc CN01.psmc CN02.psmc
 
