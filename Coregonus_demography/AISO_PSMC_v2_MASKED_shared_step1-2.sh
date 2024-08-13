@@ -18,7 +18,7 @@ PSMCDIR="/home/krablab/Documents/apps/psmc-master" #PSMC directory
 #STEP 1: READ MAPPING
 cd ${HOME}
 ${BWADIR}bwa index ${REF}
-FILELIST=`cat temp3`
+FILELIST=`cat temp`
 #FILELIST="CZ03" #This line just for running individual samples; otherwise use line above.
 for f in ${FILELIST}
 do
@@ -31,6 +31,9 @@ done
 
 for f in $FILELIST
 do
+bcftools mpileup -C50 --threads 40 -f ${REF} ${f}.bam > temp.vcf
+bcftools call --threads 40 -c temp.vcf > ${f}_temp1.vcf
+rm temp.vcf
 bedtools intersect -v -a ./${f}_temp1.vcf.gz -b ../CA_GEN_1_assembly/CA_GEN_1.final_repeat_mask.complex.reformat_4_column.filtered.tabbed.bed -header > /mnt/krab1/NJCB_data/Coregonus_PSMC_v2/masked_vcf/${f}_temp1.masked.vcf
 done
 
