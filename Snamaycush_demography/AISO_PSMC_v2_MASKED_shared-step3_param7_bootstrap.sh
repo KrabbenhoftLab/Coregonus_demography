@@ -26,10 +26,9 @@ cat ${f}.single.diploid.psmc ${f}_round-*.psmc > ${f}.combined.psmc
 done
 
 echo "bootstrapping complete"
-echo "It's finished. Go make some plots"
 
 #OUTPUT: 
 #Relevant output files include: 
 #Image file with PSMC graph
-#Make PSMC plot with multiple samples and correct for missing data:
+#Make PSMC plot with multiple samples and correct for missing data.
 
