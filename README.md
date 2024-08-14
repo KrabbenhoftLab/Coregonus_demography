@@ -1,6 +1,6 @@
 This repository contains scripts for analyses presented in Backenstose et al., 2024. Title: "Data from: Origin of the Laurentian Great Lakes fish fauna through upward adaptive radiation cascade prior to the Last Glacial Maximum"
 
-Data generated from these analyses can be found here: https://doi.org/10.5061/dryad.n02v6wx59
+Related data files can be found here: https://doi.org/10.5061/dryad.n02v6wx59
 
 Please cite:
 
