@@ -1,7 +1,6 @@
 #!/bin/sh
 #AISO Script (ABOUT, INPUT, STEPS, OUTPUT) for running psmc analysis. 
 #TJ Krabbenhoft, May 2020, University at Buffalo
-#This version run on MacPro
 
 #ABOUT:
 #This script takes input bam files from a genome assembly and runs PSMC analysis. The analysis requires a diploid consensus (i.e., SNPs called throughout the genome, with files created in Step 2). 
@@ -27,7 +26,6 @@ cat ${f}.single.diploid.psmc ${f}_round-*.psmc > ${f}.combined.psmc
 done
 
 echo "bootstrapping complete"
-echo "It's finished. Go make some plots"
 
 #OUTPUT: 
 #Relevant output files include: 
