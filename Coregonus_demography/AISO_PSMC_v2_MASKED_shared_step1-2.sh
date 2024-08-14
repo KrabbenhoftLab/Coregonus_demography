@@ -48,5 +48,5 @@ depth=`cat /mnt/krab1/NJCB_data/Coregonus_PSMC_v2/avg_depth/${f}_depth.txt`
 min=`printf %.0f $(echo "$depth / 3" | bc -l)`
 max=`printf %.0f $(echo "$depth * 2" | bc -l)`
 vcfutils.pl vcf2fq -d ${min} -D ${max} ${f}_temp1.masked.vcf | gzip > ${f}.masked.diploid.fq.gz
-echo "Concensus calling completed. It won't be long now."
+echo "Consensus calling completed."
 done
