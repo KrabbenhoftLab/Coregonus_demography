@@ -12,7 +12,9 @@ Related data files can be found here: https://doi.org/10.5061/dryad.n02v6wx59 an
 
 ### Coregonus_demography
 **Alignment to reference and SNP calling**
+
   AISO_PSMC_v2_MASKED_shared_step1-2.sh
+  
 **PSMC analyses with bootstrapping**
   AISO_PSMC_v2_MASKED_shared-step3_param7_bootstrap.sh
 **Post processing of PSMC output, with mutation rate of 7.26e-09 mutations/site/generation and a generation time of 6 years**
