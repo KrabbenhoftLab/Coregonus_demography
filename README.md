@@ -42,6 +42,14 @@ Related data files can be found here: https://doi.org/10.5061/dryad.n02v6wx59 an
 **PSMC analyses with bootstrapping**
 
   AISO_PSMC_v2_MASKED_shared-step3_param7_bootstrap.sh
+  
+**Post processing of PSMC output with a mutation rate of 7.26e-09 mutations/site/generation and a generation time of 16 years**
+
+  all_species_PSMC_MASKED_shared_bootstrap_plotting_11-13-2023.sh
+
+**Post processing of PSMC output for a single sample (LS01) with a mutation rate of 7.26e-09 mutations/site/generation and a generation times ranging from 6-20 years**
+
+LS01_PSMC_gen_time_shared_bootstrap_plotting_12-06-2023.sh
 
 ### Supplemental_Figures2-8_plotting
 
