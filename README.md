@@ -33,6 +33,19 @@ Related data files can be found here: https://doi.org/10.5061/dryad.n02v6wx59 an
   
   calc_average_depth.sh
 
+### Snamaycush_demography
+
+**Alignment to reference and SNP calling**
+
+  AISO_PSMC_v2_MASKED_shared_step1-2.sh
+  
+**PSMC analyses with bootstrapping**
+
+  AISO_PSMC_v2_MASKED_shared-step3_param7_bootstrap.sh
+
+### Supplemental_Figures2-8_plotting
+
+R scripts for plotting Supplemental Figures 2-8
 
 ## Please cite:
 Backenstose, N.J.C., MacGuigan, D.J., Osborne, C.A. et al. Origin of the Laurentian Great Lakes fish fauna through upward adaptive radiation cascade prior to the Last Glacial Maximum. Commun Biol 7, 978 (2024). https://doi.org/10.1038/s42003-024-06503-z
