@@ -27,7 +27,7 @@ Related data files can be found here: https://doi.org/10.5061/dryad.n02v6wx59 an
 
   all_species_PSMC_MASKED_MUT_RATE_shared_bootstrap_plotting_11-30-2023.sh
   
-**Alignment statistics
+**Alignment statistics**
 
   bam_stats.sh
   
